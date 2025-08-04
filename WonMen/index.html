@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--Es la declaración de tipo de documento (DOCTYPE) para HTML5, indica que el documento es un archivo HTML.-->
+<html lang="es"><!--Indica que el documento HTML está en español. El atributo "lang" especifica el idioma del contenido.
+-->
+
+<head>
+    <!--Contiene metadatos del documento HTML, como título, enlaces a estilos CSS y scripts JavaScript. Es la cabecera del documento.-->
+    <meta charset="UTF-8">
+    <!--Especifica la codificación de caracteres del documento HTML, en este caso UTF-8, que admite una amplia variedad de caracteres y símbolos de diferentes idiomas.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!---->
+    <title>Deport women</title>
+    <!--Establece el título de la página web, que se muestra en la barra de título del navegador y en los resultados de búsqueda. En este caso, el título es "Deport women".-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Deport women</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">¿Quiénes somos y para que servimos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Nuestra ropa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+</head>
+<!--Cierra la sección de cabecera (head) del documento HTML, indicando el final de los metadatos y enlaces a recursos externos. Ahora comienza la sección de contenido del documento.-->
+
+<body><!--Abre la sección de contenido del documento HTML, donde se coloca el contenido visible de la página web, como texto, imágenes, enlaces, formularios, etc. Aquí irá todo lo que se mostrará en la página.
+-->
+    <!-- Hero Section -->
+    <header class="bg-light text-dark text-center py-5" id="inicio">
+        <div class="container">
+            <h1 class="display-4">¡DEPORT WOMEN, ropa deportiva para hombres y mujeres!</h1>
+            <p class="lead">Cantidad y calidad al mejor precio</p>
+            <a class="btn btn-primary btn-lg" href="#servicios">Toca aquí para saber más sobre nosotros</a>
+        </div>
+    </header>
+    <!-- Contenido Destacado -->
+    <section class="container py-5" id="servicios">
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Nuestro producto más vendido a nivel nacional</h5>
+                    <img src="img/colombia100sinfondo.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Camiseta de la selección Colombia unisex a tan solo 300.000$ importada
+                            desde Brasil</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Tarjeta 2 (replicar según necesidad) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-title">Nuestro producto más caldense</h5>
+                    <img src="img/camisaoncecaldas.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Camisetas más requeridas por el público caldense</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Tarjeta 3 (replicar según necesidad) -->
+        <div class="col-md-4">
+            <div class="card">
+                <h5 class="card-title">Nuestra oferta!!</h5>
+                <img src="img/camisanacional.webp" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">¡Lleva 3 y te regalamos la 4 gratis!</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Tarjeta 4 (replicar según necesidad) -->
+        <div class="col-md-4">
+            <div class="card">
+                <h5 class="card-title">Nuestro producto menos vendido</h5>
+                <img src="img/1380263-800-450.webp" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">Solo queremos promocionar lo que nadie compra</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section class="bg-secondary text-white py-5" id="nosotros">
+        <div class="container text-center">
+            <h2>Conocenos</h2>
+            <p>Somos una empresa de ropa deportiva para hombres y mujeres, EMPEZAMOS DESDE 0 PERO QUEREMOS LLEGAR LEJOS
+            </p>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section class="container py-5" id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" class="form-control mb-3" placeholder="Nombre">
+            <input type="email" class="form-control mb-3" placeholder="Email">
+            <textarea class="form-control mb-3" placeholder="Mensaje"></textarea>
+            <button class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 Nombre Proyecto | Todos los derechos reservados.
+    </footer>
+
+    <link rel="stylesheet" href="css/index.css">
+
+
+
+</body><!--Cierra la sección de contenido del documento HTML, indicando el final del contenido visible de la página web. Lo que sigue es el cierre del documento HTML.
+-->
+
+</html>
+<!--Cierra el documento HTML, indicando el final del archivo. No hay más contenido después de esta etiqueta. El documento HTML está completo.-->
